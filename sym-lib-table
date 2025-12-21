@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "HVR1B12")(type "KiCad")(uri "${KIPRJMOD}/HVR1B12/HVR1B12.kicad_sym")(options "")(descr ""))
+  (lib (name "Samacsys")(type "KiCad")(uri "${KIPRJMOD}/Samacsys.kicad_sym")(options "")(descr ""))
+)

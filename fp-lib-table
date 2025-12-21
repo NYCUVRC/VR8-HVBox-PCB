@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HVR1B12")(type "KiCad")(uri "${KIPRJMOD}/HVR1B12")(options "")(descr ""))
+  (lib (name "Samacsys")(type "KiCad")(uri "${KIPRJMOD}/Samacsys.pretty")(options "")(descr ""))
+  (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/custom.pretty")(options "")(descr ""))
+)

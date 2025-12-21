@@ -1,0 +1,9 @@
+(version 1)
+### 4E43434D NCCM SECTION START ###
+
+(rule "CLR_Default_to_TS"
+  (severity error)
+  (condition "A.NetClass != 'TS' && B.NetClass == 'TS'")
+  (constraint clearance (min 4.0mm))
+)
+### 4E43434D NCCM SECTION END ###
