@@ -5,6 +5,113 @@
 	(uuid "5ab67901-fb3f-4046-b162-e1301107e96a")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -972,176 +1079,6 @@
 				)
 				(pin passive line
 					(at 0 -2.54 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Samacsys:43650-0316"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "43650-0316"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Samacsys:43650-03YY_151617"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500215_sd.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Single Row, 3 Circuits, with PCB Polarizing Peg, Glow-Wire Capable, Black"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "9.9"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "538-43650-0316"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0316?qs=Nb99Pa9xYq8A2JEb2OZsGg%3D%3D"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Molex"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "43650-0316"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "43650-0316_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -2194,10 +2131,6 @@
 		(at 186.69 86.36)
 		(uuid "5404ab18-1fd9-4be0-903b-ea326d5f6c83")
 	)
-	(no_connect
-		(at 186.69 100.33)
-		(uuid "abdf9423-5a58-428e-81d8-c72e1167ebf7")
-	)
 	(wire
 		(pts
 			(xy 139.7 100.33) (xy 143.51 100.33)
@@ -2402,7 +2335,7 @@
 	)
 	(global_label "Cur_Out"
 		(shape input)
-		(at 76.2 77.47 0)
+		(at 76.2 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2412,7 +2345,7 @@
 		)
 		(uuid "342e976d-5e2d-4b27-89a1-09d6918e2ab3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.5632 77.47 0)
+			(at 86.5632 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2401,7 @@
 	)
 	(global_label "Discharge"
 		(shape input)
-		(at 144.78 77.47 0)
+		(at 143.51 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2478,7 +2411,7 @@
 		)
 		(uuid "4c2392f5-c2af-462d-b8f4-4f92ae99f4a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.0785 77.47 0)
+			(at 155.8085 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2600,7 +2533,7 @@
 	)
 	(global_label "Cur_Ref"
 		(shape input)
-		(at 76.2 74.93 0)
+		(at 76.2 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2610,7 +2543,7 @@
 		)
 		(uuid "a92aa9ec-5e76-4a82-a384-6cc3805edd3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.4423 74.93 0)
+			(at 86.4423 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +2555,7 @@
 	)
 	(global_label "TS+"
 		(shape input)
-		(at 143.51 100.33 0)
+		(at 144.78 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2632,7 +2565,7 @@
 		)
 		(uuid "a96d23b9-aa19-4510-b696-f917bcdb3f1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.2447 100.33 0)
+			(at 151.5147 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2599,7 @@
 	)
 	(global_label "SDC"
 		(shape input)
-		(at 76.2 69.85 0)
+		(at 76.2 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2676,7 +2609,7 @@
 		)
 		(uuid "b74ea1e6-d04a-40e6-acc3-408e2e36c67d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9347 69.85 0)
+			(at 82.9347 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,7 +3549,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 76.2 67.31 270)
+		(at 76.2 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3625,7 +3558,7 @@
 		(fields_autoplaced yes)
 		(uuid "23982e1c-86c4-4937-adce-b6efa45a43ef")
 		(property "Reference" "#PWR07"
-			(at 72.39 67.31 0)
+			(at 72.39 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +3567,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 80.01 67.3099 90)
+			(at 80.01 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3576,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 67.31 0)
+			(at 76.2 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,7 +3585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 67.31 0)
+			(at 76.2 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +3594,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 76.2 67.31 0)
+			(at 76.2 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,131 +3877,6 @@
 			(project "Discharge&TSMP"
 				(path "/5ab67901-fb3f-4046-b162-e1301107e96a"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Samacsys:43650-0316")
-		(at 186.69 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3abded28-e813-4de5-8dd8-b36c9381fcaa")
-		(property "Reference" "J5"
-			(at 203.2 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "43650-0316"
-			(at 203.2 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Samacsys:43650-03YY_151617"
-			(at 203.2 192.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500215_sd.pdf"
-			(at 203.2 292.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Single Row, 3 Circuits, with PCB Polarizing Peg, Glow-Wire Capable, Black"
-			(at 186.69 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "9.9"
-			(at 203.2 492.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-43650-0316"
-			(at 203.2 592.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0316?qs=Nb99Pa9xYq8A2JEb2OZsGg%3D%3D"
-			(at 203.2 692.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 203.2 792.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "43650-0316"
-			(at 203.2 892.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f97c6890-352c-494b-91bc-1e24500b9ebe")
-		)
-		(pin "2"
-			(uuid "3dc18bef-bedf-472d-9fb0-a23d5c10b889")
-		)
-		(pin "3"
-			(uuid "460cb1fb-ab58-4130-a437-3e5cd387ad72")
-		)
-		(instances
-			(project ""
-				(path "/5ab67901-fb3f-4046-b162-e1301107e96a"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4477,6 +4285,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 186.69 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d1fb972-3885-4c7f-b43f-d19ce2247ffe")
+		(property "Reference" "TP1"
+			(at 191.77 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 191.77 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 186.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebe5d3bd-031d-4af1-bb4b-d0065bfa9926")
+		)
+		(instances
+			(project ""
+				(path "/5ab67901-fb3f-4046-b162-e1301107e96a"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 76.2 100.33 270)
 		(unit 1)
@@ -4538,6 +4413,73 @@
 			(project "HVBox PCB"
 				(path "/5ab67901-fb3f-4046-b162-e1301107e96a"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 186.69 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99e3ffdc-c8d9-40f3-b116-fad2f946e37c")
+		(property "Reference" "TP2"
+			(at 191.77 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 191.77 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 186.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 186.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e406ecb4-6a6b-44b2-93fb-04f428b50cfd")
+		)
+		(instances
+			(project "HVBox PCB"
+				(path "/5ab67901-fb3f-4046-b162-e1301107e96a"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
