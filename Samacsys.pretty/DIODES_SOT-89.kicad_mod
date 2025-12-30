@@ -161,17 +161,23 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "25bafc63-794d-48fc-9baa-9188fd0abba3")
 	)
-	(pad "2" smd rect
+	(pad "2" smd custom
 		(at 0 -0.75)
 		(size 1.933 3.03)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -0.38 1.015)
+				(end 0.38 3.015)
+				(width 0)
+				(fill yes)
+			)
+		)
 		(uuid "20bf110d-5585-4e71-b2f6-e0029c6a3f71")
-	)
-	(pad "2" smd rect
-		(at 0 1.515)
-		(size 0.76 1.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "c6919ae5-1564-4187-bf03-07337e323331")
 	)
 	(pad "3" smd rect
 		(at 1.5 1.4)
